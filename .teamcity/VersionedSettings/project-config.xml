@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="b38f9f71-f322-4bd3-989f-fe616bfa5b58" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
-  <name>Versioned settings 3</name>
+  <name>Versioned settings 4</name>
   <parameters>
     <param name="aaa" value="bbb" />
     <param name="teamcity.ui.settings.readOnly" value="true" />
