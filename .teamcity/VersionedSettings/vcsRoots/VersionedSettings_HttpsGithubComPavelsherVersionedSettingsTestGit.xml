@@ -7,7 +7,7 @@
   <param name="branch" value="refs/heads/master" />
   <param name="ignoreKnownHosts" value="true" />
   <param name="submoduleCheckout" value="CHECKOUT" />
-  <param name="url" value="git@github.com:pavelsher/versioned-settings-test.git" />
+  <param name="url" value="https://github.com/pavelsher/versioned-settings-test.git" />
   <param name="useAlternates" value="true" />
   <param name="usernameStyle" value="USERID" />
 </vcs-root>
