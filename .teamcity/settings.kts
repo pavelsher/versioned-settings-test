@@ -53,6 +53,7 @@ object Build : BuildType({
         dependency(Dep) {
             snapshot {
                 reuseBuilds = ReuseBuilds.NO
+                synchronizeRevisions = false
             }
 
             artifacts {
