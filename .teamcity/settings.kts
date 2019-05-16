@@ -23,7 +23,7 @@ To debug in IntelliJ Idea, open the 'Maven Projects' tool window (View
 'Debug' option is available in the context menu for the task.
 */
 
-version = "2019.1"
+version = "2018.2"
 
 project {
 
@@ -39,7 +39,7 @@ object Build : BuildType({
 
     steps {
         script {
-            scriptContent = "echo 1\necho 2\necho 3"
+            scriptContent = "echo 1\r\rnecho 2\r\necho 3"
         }
     }
 })
