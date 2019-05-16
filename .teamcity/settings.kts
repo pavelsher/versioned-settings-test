@@ -1,5 +1,6 @@
 import jetbrains.buildServer.configs.kotlin.v2018_2.*
 import jetbrains.buildServer.configs.kotlin.v2018_2.buildSteps.script
+import jetbrains.buildServer.configs.kotlin.v2018_2.ui.add
 
 /*
 The settings script is an entry point for defining a TeamCity
@@ -34,6 +35,10 @@ project {
     }
 }
 
+object Dep : BuildType({
+    name = "Dep"
+})
+
 object Build : BuildType({
     name = "Build"
 
@@ -42,4 +47,15 @@ object Build : BuildType({
             scriptContent = "echo 1\r\necho 2\r\necho 3"
         }
     }
+
+    dependencies {
+        snapshot(Dep) {
+            reuseBuilds = ReuseBuilds.NO
+        }
+
+        artifacts(Dep) {
+            artifactRules = "aaa"
+        }
+    }
+
 })
