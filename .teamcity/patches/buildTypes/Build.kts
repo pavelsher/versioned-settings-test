@@ -14,6 +14,10 @@ changeBuildType(RelativeId("Build")) {
             snapshot {
                 reuseBuilds = ReuseBuilds.NO
             }
+
+            artifacts {
+                artifactRules = "aaa"
+            }
         }
 
     }
