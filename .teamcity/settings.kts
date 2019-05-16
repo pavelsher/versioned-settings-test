@@ -39,7 +39,7 @@ object Build : BuildType({
 
     steps {
         script {
-            scriptContent = "echo 1\r\rnecho 2\r\necho 3"
+            scriptContent = "echo 1\r\necho 2\r\necho 3"
         }
     }
 })
