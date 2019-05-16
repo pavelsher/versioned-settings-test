@@ -39,11 +39,7 @@ object Build : BuildType({
 
     steps {
         script {
-            scriptContent = """
-                echo 1
-                echo 2
-                echo 3
-            """.trimIndent()
+            scriptContent = "echo 1\necho 2\necho 3"
         }
     }
 })
