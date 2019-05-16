@@ -26,7 +26,11 @@ changeBuildType(RelativeId("Build")) {
             }
 
             artifacts {
-                artifactRules = "aaa"
+                cleanDestination = true
+                artifactRules = """
+                    aaa
+                    zz
+                """.trimIndent()
             }
         }
 
