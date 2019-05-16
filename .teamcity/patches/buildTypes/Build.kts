@@ -34,5 +34,12 @@ changeBuildType(RelativeId("Build")) {
             }
         }
 
+        add(RelativeId("Build")) {
+            artifacts {
+                buildRule = lastSuccessful()
+                artifactRules = "fdsfds"
+            }
+        }
+
     }
 }
