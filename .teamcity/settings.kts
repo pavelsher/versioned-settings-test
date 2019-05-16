@@ -50,13 +50,14 @@ object Build : BuildType({
     }
 
     dependencies {
-        snapshot(Dep) {
-            reuseBuilds = ReuseBuilds.NO
-        }
+        dependency(Dep) {
+            snapshot {
+                reuseBuilds = ReuseBuilds.NO
+            }
 
-        artifacts(Dep) {
-            artifactRules = "aaa"
+            artifacts {
+                artifactRules = "aaa"
+            }
         }
     }
-
 })
