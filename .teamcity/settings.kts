@@ -40,7 +40,7 @@ object Dep : BuildType({
     name = "Dep"
 })
 
-object Build : BuildType({
+object Build : BuddildType({
     name = "Build"
 
     steps {
