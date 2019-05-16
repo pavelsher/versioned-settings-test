@@ -3,7 +3,6 @@
   <name>Versioned settings 4</name>
   <parameters>
     <param name="aaa" value="bbb" />
-    <param name="teamcity.ui.settings.readOnly" value="true" />
   </parameters>
   <project-extensions>
     <extension id="PROJECT_EXT_2" type="versionedSettings">
