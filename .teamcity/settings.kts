@@ -28,6 +28,7 @@ version = "2018.2"
 
 project {
 
+    buildType(Dep)
     buildType(Build)
 
     params {
